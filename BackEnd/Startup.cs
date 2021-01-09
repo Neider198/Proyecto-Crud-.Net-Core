@@ -35,7 +35,8 @@ namespace BackEnd
         options.AddPolicy(name: MyAllowSpecificOrigins,
           builder =>
           {
-            builder.WithOrigins("https://stoic-bardeen-a6aeff.netlify.app/");
+            builder.WithOrigins("http://localhost:4200",
+                                "https://stoic-bardeen-a6aeff.netlify.app");
           });
       });
 
