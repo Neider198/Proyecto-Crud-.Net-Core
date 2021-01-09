@@ -1357,11 +1357,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "N:\\ASP .NET CORE\\BackEnd\\BackEnd\\BackEnd.csproj",
+      "projectUniqueName": "N:\\ASP .NET CORE\\BackCrud\\BackEnd\\BackEnd.csproj",
       "projectName": "BackEnd",
-      "projectPath": "N:\\ASP .NET CORE\\BackEnd\\BackEnd\\BackEnd.csproj",
+      "projectPath": "N:\\ASP .NET CORE\\BackCrud\\BackEnd\\BackEnd.csproj",
       "packagesPath": "C:\\Users\\neide\\.nuget\\packages\\",
-      "outputPath": "N:\\ASP .NET CORE\\BackEnd\\BackEnd\\obj\\",
+      "outputPath": "N:\\ASP .NET CORE\\BackCrud\\BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
