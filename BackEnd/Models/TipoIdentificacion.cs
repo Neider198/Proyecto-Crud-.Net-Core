@@ -12,7 +12,7 @@ namespace BackEnd.Models
       Personas = new HashSet<Persona>();
     }
     public int Id { get; set; }
-    public int Nombre { get; set; }
+    public string Nombre { get; set; }
     public virtual ICollection<Persona> Personas { get; set; }
   }
 }
