@@ -51,6 +51,11 @@ namespace BackEnd.context
               .HasMaxLength(30)
               .IsRequired();
 
+        Entity.Property(e => e.Identificacion)
+              .HasColumnType("character varying")
+              .HasMaxLength(15)
+              .IsRequired(); 
+
         Entity.Property(e => e.Direccion)
               .HasColumnType("character varying")
               .HasMaxLength(60)

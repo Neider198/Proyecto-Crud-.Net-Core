@@ -46,7 +46,7 @@ namespace BackEnd.Controllers
 
       if (SexoItem == null)
       {
-        return NotFound();
+        return NotFound("El Registro con el Id " + id + " No existe");
       }
 
       return SexoToDTO(SexoItem);
@@ -80,7 +80,7 @@ namespace BackEnd.Controllers
 
       if (SexoItem == null)
       {
-        return NotFound();
+        return NotFound("El Registro con el Id " + id + " No existe");
       }
 
       SexoItem.Nombre = sexoDTO.Nombre;
